@@ -1,0 +1,459 @@
+2.3773 	WARNING 	We strongly recommend you activate the PTB sound engine in PsychoPy prefs as the preferred audio engine. Its timing is vastly superior. Your prefs are currently set to use ['sounddevice', 'PTB', 'pyo', 'pygame'] (in that order).
+9.2058 	WARNING 	User requested fullscreen with size [1088  614], but screen is actually [1360, 768]. Using actual size
+11.0915 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, args=UNKNOWN, autoLog=True, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0., 0., 0.]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x0000029516235B70>, gamma=None, gammaErrorPolicy='raise', kwargs=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x00000295161F7588>, multiSample=False, name='window1', numSamples=2, pos=[0.0, 0.0], screen=0, size=array([1360,  768]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+11.0916 	EXP 	window1: recordFrameIntervals = False
+11.2570 	EXP 	window1: recordFrameIntervals = True
+11.4407 	EXP 	window1: recordFrameIntervals = False
+12.1421 	EXP 	Created instr1 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='instr1', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text=str(...), units='height', win=Window(...), wrapWidth=1)
+12.1489 	EXP 	Created fix1 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='fix1', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='+', units='height', win=Window(...), wrapWidth=1)
+12.1494 	EXP 	window1: mouseVisible = False
+12.1665 	EXP 	Created trial1Target = Polygon(__class__=<class 'psychopy.visual.polygon.Polygon'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace=None, contrast=1.0, depth=-2.0, fillColor=array([1., 1., 1.]), fillColorSpace='rgb', fillRGB=array([1., 1., 1.]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1., 1., 1.]), lineWidth=1, name='trial1Target', opacity=1.0, ori=array(0.), pos=array([0., 0.]), size=array([0.05, 0.05]), units='height', vertices=ndarray(...), win=Window(...))
+12.1800 	EXP 	Created trial1Home = Polygon(__class__=<class 'psychopy.visual.polygon.Polygon'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace=None, contrast=1.0, depth=-3.0, fillColor=array([1., 1., 1.]), fillColorSpace='rgb', fillRGB=array([1., 1., 1.]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1., 1., 1.]), lineWidth=1, name='trial1Home', opacity=1.0, ori=array(0.), pos=array([0., 0.]), size=array([0.05, 0.05]), units='height', vertices=ndarray(...), win=Window(...))
+12.1936 	EXP 	Created trial1Cursor = Polygon(__class__=<class 'psychopy.visual.polygon.Polygon'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace=None, contrast=1.0, depth=-4.0, fillColor=array([-1., -1., -1.]), fillColorSpace='rgb', fillRGB=array([-1., -1., -1.]), interpolate=True, lineColor=array([-1., -1., -1.]), lineColorSpace='rgb', lineRGB=array([-1., -1., -1.]), lineWidth=1, name='trial1Cursor', opacity=1.0, ori=array(0.), pos=array([0., 0.]), size=array([0.025, 0.025]), units='height', vertices=ndarray(...), win=Window(...))
+12.1977 	EXP 	Created trial1Num = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-6.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='trial1Num', opacity=1.0, ori=0, pos=array([-0.4,  0.4]), rgb=array([255., 255., 255.]), text='20', units='height', win=Window(...), wrapWidth=1)
+12.2036 	EXP 	Created trial1Text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-7.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='trial1Text', opacity=1.0, ori=0, pos=array([-0.4,  0.3]), rgb=array([255., 255., 255.]), text='out of 20', units='height', win=Window(...), wrapWidth=1)
+12.2517 	EXP 	Created instr2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='instr2', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text=str(...), units='height', win=Window(...), wrapWidth=1)
+12.2553 	EXP 	Created fix2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='fix2', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='+', units='height', win=Window(...), wrapWidth=1)
+12.2557 	EXP 	window1: mouseVisible = False
+12.2694 	EXP 	Created trial2Target = Polygon(__class__=<class 'psychopy.visual.polygon.Polygon'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace=None, contrast=1.0, depth=-2.0, fillColor=array([1., 1., 1.]), fillColorSpace='rgb', fillRGB=array([1., 1., 1.]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1., 1., 1.]), lineWidth=1, name='trial2Target', opacity=1.0, ori=array(0.), pos=array([0., 0.]), size=array([0.05, 0.05]), units='height', vertices=ndarray(...), win=Window(...))
+12.2826 	EXP 	Created trial2Home = Polygon(__class__=<class 'psychopy.visual.polygon.Polygon'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace=None, contrast=1.0, depth=-3.0, fillColor=array([1., 1., 1.]), fillColorSpace='rgb', fillRGB=array([1., 1., 1.]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1., 1., 1.]), lineWidth=1, name='trial2Home', opacity=1.0, ori=array(0.), pos=array([0., 0.]), size=array([0.05, 0.05]), units='height', vertices=ndarray(...), win=Window(...))
+12.2961 	EXP 	Created trial2Cursor = Polygon(__class__=<class 'psychopy.visual.polygon.Polygon'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace=None, contrast=1.0, depth=-4.0, fillColor=array([-1., -1., -1.]), fillColorSpace='rgb', fillRGB=array([-1., -1., -1.]), interpolate=True, lineColor=array([-1., -1., -1.]), lineColorSpace='rgb', lineRGB=array([-1., -1., -1.]), lineWidth=1, name='trial2Cursor', opacity=1.0, ori=array(0.), pos=array([0., 0.]), size=array([0.025, 0.025]), units='height', vertices=ndarray(...), win=Window(...))
+12.2994 	EXP 	Created trial2Num = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-6.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='trial2Num', opacity=1.0, ori=0, pos=array([-0.4,  0.4]), rgb=array([255., 255., 255.]), text='90', units='height', win=Window(...), wrapWidth=1)
+12.3045 	EXP 	Created trial2Text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-7.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='trial2Text', opacity=1.0, ori=0, pos=array([-0.4,  0.3]), rgb=array([255., 255., 255.]), text='out of 90', units='height', win=Window(...), wrapWidth=1)
+12.3563 	EXP 	Created instr3 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='instr3', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text=str(...), units='height', win=Window(...), wrapWidth=1)
+12.3598 	EXP 	Created fix3 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='fix3', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='+', units='height', win=Window(...), wrapWidth=1)
+12.3603 	EXP 	window1: mouseVisible = False
+12.3782 	EXP 	Created trial3Target = Polygon(__class__=<class 'psychopy.visual.polygon.Polygon'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace=None, contrast=1.0, depth=-2.0, fillColor=array([1., 1., 1.]), fillColorSpace='rgb', fillRGB=array([1., 1., 1.]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1., 1., 1.]), lineWidth=1, name='trial3Target', opacity=1.0, ori=array(0.), pos=array([0., 0.]), size=array([0.05, 0.05]), units='height', vertices=ndarray(...), win=Window(...))
+12.3936 	EXP 	Created trial3Home = Polygon(__class__=<class 'psychopy.visual.polygon.Polygon'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace=None, contrast=1.0, depth=-3.0, fillColor=array([1., 1., 1.]), fillColorSpace='rgb', fillRGB=array([1., 1., 1.]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1., 1., 1.]), lineWidth=1, name='trial3Home', opacity=1.0, ori=array(0.), pos=array([0., 0.]), size=array([0.05, 0.05]), units='height', vertices=ndarray(...), win=Window(...))
+12.4071 	EXP 	Created trial3Cursor = Polygon(__class__=<class 'psychopy.visual.polygon.Polygon'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace=None, contrast=1.0, depth=-4.0, fillColor=array([-1., -1., -1.]), fillColorSpace='rgb', fillRGB=array([-1., -1., -1.]), interpolate=True, lineColor=array([-1., -1., -1.]), lineColorSpace='rgb', lineRGB=array([-1., -1., -1.]), lineWidth=1, name='trial3Cursor', opacity=1.0, ori=array(0.), pos=array([0., 0.]), size=array([0.025, 0.025]), units='height', vertices=ndarray(...), win=Window(...))
+12.4105 	EXP 	Created trial3Num = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-6.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='trial3Num', opacity=1.0, ori=0, pos=array([-0.4,  0.4]), rgb=array([255., 255., 255.]), text='20', units='height', win=Window(...), wrapWidth=1)
+12.4269 	EXP 	Created thanks = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='thanks', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text=str(...), units='height', win=Window(...), wrapWidth=1)
+12.4606 	EXP 	instr1: autoDraw = True
+25.5939 	DATA 	Keypress: space
+25.6035 	EXP 	instr1: autoDraw = False
+25.6035 	EXP 	fix1: autoDraw = True
+26.6557 	EXP 	Imported mReversalCond1.xlsx as conditions, 20 conditions, 3 params
+26.6563 	EXP 	Created sequence: sequential, trialTypes=20, nReps=1, seed=None
+26.6568 	EXP 	New trial (rep=0, index=0): OrderedDict([('trialsType', 1), ('trialsNum', 1), ('trialNum', 1)])
+26.6746 	EXP 	fix1: autoDraw = False
+26.6746 	EXP 	fix1: autoDraw = False
+26.6746 	EXP 	trial1Num: text = '1'
+26.6746 	EXP 	trial1Cursor: pos = (1.5, 1.5)
+26.6746 	EXP 	trial1Target: autoDraw = True
+26.6746 	EXP 	trial1Home: autoDraw = True
+26.6746 	EXP 	trial1Cursor: autoDraw = True
+26.6746 	EXP 	trial1Num: autoDraw = True
+26.6746 	EXP 	trial1Text: autoDraw = True
+29.0644 	EXP 	New trial (rep=0, index=1): OrderedDict([('trialsType', 1), ('trialsNum', 1), ('trialNum', 2)])
+29.0780 	EXP 	trial1Target: autoDraw = False
+29.0780 	EXP 	trial1Home: autoDraw = False
+29.0780 	EXP 	trial1Cursor: autoDraw = False
+29.0780 	EXP 	trial1Num: autoDraw = False
+29.0780 	EXP 	trial1Text: autoDraw = False
+29.0780 	EXP 	trial1Num: text = '2'
+29.0780 	EXP 	trial1Cursor: pos = (1.5, 1.5)
+29.0780 	EXP 	trial1Target: autoDraw = True
+29.0780 	EXP 	trial1Home: autoDraw = True
+29.0780 	EXP 	trial1Cursor: autoDraw = True
+29.0780 	EXP 	trial1Num: autoDraw = True
+29.0780 	EXP 	trial1Text: autoDraw = True
+30.4925 	EXP 	New trial (rep=0, index=2): OrderedDict([('trialsType', 1), ('trialsNum', 1), ('trialNum', 3)])
+30.5089 	EXP 	trial1Target: autoDraw = False
+30.5089 	EXP 	trial1Home: autoDraw = False
+30.5089 	EXP 	trial1Cursor: autoDraw = False
+30.5089 	EXP 	trial1Num: autoDraw = False
+30.5089 	EXP 	trial1Text: autoDraw = False
+30.5089 	EXP 	trial1Num: text = '3'
+30.5089 	EXP 	trial1Cursor: pos = (1.5, 1.5)
+30.5089 	EXP 	trial1Target: autoDraw = True
+30.5089 	EXP 	trial1Home: autoDraw = True
+30.5089 	EXP 	trial1Cursor: autoDraw = True
+30.5089 	EXP 	trial1Num: autoDraw = True
+30.5089 	EXP 	trial1Text: autoDraw = True
+31.3591 	EXP 	New trial (rep=0, index=3): OrderedDict([('trialsType', 1), ('trialsNum', 1), ('trialNum', 4)])
+31.3753 	EXP 	trial1Target: autoDraw = False
+31.3753 	EXP 	trial1Home: autoDraw = False
+31.3753 	EXP 	trial1Cursor: autoDraw = False
+31.3753 	EXP 	trial1Num: autoDraw = False
+31.3753 	EXP 	trial1Text: autoDraw = False
+31.3753 	EXP 	trial1Num: text = '4'
+31.3753 	EXP 	trial1Cursor: pos = (1.5, 1.5)
+31.3753 	EXP 	trial1Target: autoDraw = True
+31.3753 	EXP 	trial1Home: autoDraw = True
+31.3753 	EXP 	trial1Cursor: autoDraw = True
+31.3753 	EXP 	trial1Num: autoDraw = True
+31.3753 	EXP 	trial1Text: autoDraw = True
+32.5756 	EXP 	New trial (rep=0, index=4): OrderedDict([('trialsType', 1), ('trialsNum', 1), ('trialNum', 5)])
+32.5927 	EXP 	trial1Target: autoDraw = False
+32.5927 	EXP 	trial1Home: autoDraw = False
+32.5927 	EXP 	trial1Cursor: autoDraw = False
+32.5927 	EXP 	trial1Num: autoDraw = False
+32.5927 	EXP 	trial1Text: autoDraw = False
+32.5927 	EXP 	trial1Num: text = '5'
+32.5927 	EXP 	trial1Cursor: pos = (1.5, 1.5)
+32.5927 	EXP 	trial1Target: autoDraw = True
+32.5927 	EXP 	trial1Home: autoDraw = True
+32.5927 	EXP 	trial1Cursor: autoDraw = True
+32.5927 	EXP 	trial1Num: autoDraw = True
+32.5927 	EXP 	trial1Text: autoDraw = True
+33.5913 	EXP 	New trial (rep=0, index=5): OrderedDict([('trialsType', 1), ('trialsNum', 1), ('trialNum', 6)])
+33.6073 	EXP 	trial1Target: autoDraw = False
+33.6073 	EXP 	trial1Home: autoDraw = False
+33.6073 	EXP 	trial1Cursor: autoDraw = False
+33.6073 	EXP 	trial1Num: autoDraw = False
+33.6073 	EXP 	trial1Text: autoDraw = False
+33.6073 	EXP 	trial1Num: text = '6'
+33.6073 	EXP 	trial1Cursor: pos = (1.5, 1.5)
+33.6073 	EXP 	trial1Target: autoDraw = True
+33.6073 	EXP 	trial1Home: autoDraw = True
+33.6073 	EXP 	trial1Cursor: autoDraw = True
+33.6073 	EXP 	trial1Num: autoDraw = True
+33.6073 	EXP 	trial1Text: autoDraw = True
+37.1593 	EXP 	New trial (rep=0, index=6): OrderedDict([('trialsType', 1), ('trialsNum', 1), ('trialNum', 7)])
+37.1760 	EXP 	trial1Target: autoDraw = False
+37.1760 	EXP 	trial1Home: autoDraw = False
+37.1760 	EXP 	trial1Cursor: autoDraw = False
+37.1760 	EXP 	trial1Num: autoDraw = False
+37.1760 	EXP 	trial1Text: autoDraw = False
+37.1760 	EXP 	trial1Num: text = '7'
+37.1760 	EXP 	trial1Cursor: pos = (1.5, 1.5)
+37.1760 	EXP 	trial1Target: autoDraw = True
+37.1760 	EXP 	trial1Home: autoDraw = True
+37.1760 	EXP 	trial1Cursor: autoDraw = True
+37.1760 	EXP 	trial1Num: autoDraw = True
+37.1760 	EXP 	trial1Text: autoDraw = True
+38.1566 	EXP 	New trial (rep=0, index=7): OrderedDict([('trialsType', 1), ('trialsNum', 1), ('trialNum', 8)])
+38.1728 	EXP 	trial1Target: autoDraw = False
+38.1728 	EXP 	trial1Home: autoDraw = False
+38.1728 	EXP 	trial1Cursor: autoDraw = False
+38.1728 	EXP 	trial1Num: autoDraw = False
+38.1728 	EXP 	trial1Text: autoDraw = False
+38.1728 	EXP 	trial1Num: text = '8'
+38.1728 	EXP 	trial1Cursor: pos = (1.5, 1.5)
+38.1728 	EXP 	trial1Target: autoDraw = True
+38.1728 	EXP 	trial1Home: autoDraw = True
+38.1728 	EXP 	trial1Cursor: autoDraw = True
+38.1728 	EXP 	trial1Num: autoDraw = True
+38.1728 	EXP 	trial1Text: autoDraw = True
+39.3243 	EXP 	New trial (rep=0, index=8): OrderedDict([('trialsType', 1), ('trialsNum', 1), ('trialNum', 9)])
+39.3370 	EXP 	trial1Target: autoDraw = False
+39.3370 	EXP 	trial1Home: autoDraw = False
+39.3370 	EXP 	trial1Cursor: autoDraw = False
+39.3370 	EXP 	trial1Num: autoDraw = False
+39.3370 	EXP 	trial1Text: autoDraw = False
+39.3370 	EXP 	trial1Num: text = '9'
+39.3370 	EXP 	trial1Cursor: pos = (1.5, 1.5)
+39.3370 	EXP 	trial1Target: autoDraw = True
+39.3370 	EXP 	trial1Home: autoDraw = True
+39.3370 	EXP 	trial1Cursor: autoDraw = True
+39.3370 	EXP 	trial1Num: autoDraw = True
+39.3370 	EXP 	trial1Text: autoDraw = True
+40.3068 	EXP 	New trial (rep=0, index=9): OrderedDict([('trialsType', 1), ('trialsNum', 1), ('trialNum', 10)])
+40.3200 	EXP 	trial1Target: autoDraw = False
+40.3200 	EXP 	trial1Home: autoDraw = False
+40.3200 	EXP 	trial1Cursor: autoDraw = False
+40.3200 	EXP 	trial1Num: autoDraw = False
+40.3200 	EXP 	trial1Text: autoDraw = False
+40.3200 	EXP 	trial1Num: text = '10'
+40.3200 	EXP 	trial1Cursor: pos = (1.5, 1.5)
+40.3200 	EXP 	trial1Target: autoDraw = True
+40.3200 	EXP 	trial1Home: autoDraw = True
+40.3200 	EXP 	trial1Cursor: autoDraw = True
+40.3200 	EXP 	trial1Num: autoDraw = True
+40.3200 	EXP 	trial1Text: autoDraw = True
+41.3567 	EXP 	New trial (rep=0, index=10): OrderedDict([('trialsType', 1), ('trialsNum', 1), ('trialNum', 11)])
+41.3701 	EXP 	trial1Target: autoDraw = False
+41.3701 	EXP 	trial1Home: autoDraw = False
+41.3701 	EXP 	trial1Cursor: autoDraw = False
+41.3701 	EXP 	trial1Num: autoDraw = False
+41.3701 	EXP 	trial1Text: autoDraw = False
+41.3701 	EXP 	trial1Num: text = '11'
+41.3701 	EXP 	trial1Cursor: pos = (1.5, 1.5)
+41.3701 	EXP 	trial1Target: autoDraw = True
+41.3701 	EXP 	trial1Home: autoDraw = True
+41.3701 	EXP 	trial1Cursor: autoDraw = True
+41.3701 	EXP 	trial1Num: autoDraw = True
+41.3701 	EXP 	trial1Text: autoDraw = True
+42.8234 	EXP 	New trial (rep=0, index=11): OrderedDict([('trialsType', 1), ('trialsNum', 1), ('trialNum', 12)])
+42.8366 	EXP 	trial1Target: autoDraw = False
+42.8366 	EXP 	trial1Home: autoDraw = False
+42.8366 	EXP 	trial1Cursor: autoDraw = False
+42.8366 	EXP 	trial1Num: autoDraw = False
+42.8366 	EXP 	trial1Text: autoDraw = False
+42.8366 	EXP 	trial1Num: text = '12'
+42.8366 	EXP 	trial1Cursor: pos = (1.5, 1.5)
+42.8366 	EXP 	trial1Target: autoDraw = True
+42.8366 	EXP 	trial1Home: autoDraw = True
+42.8366 	EXP 	trial1Cursor: autoDraw = True
+42.8366 	EXP 	trial1Num: autoDraw = True
+42.8366 	EXP 	trial1Text: autoDraw = True
+43.9887 	EXP 	New trial (rep=0, index=12): OrderedDict([('trialsType', 1), ('trialsNum', 1), ('trialNum', 13)])
+44.0016 	EXP 	trial1Target: autoDraw = False
+44.0016 	EXP 	trial1Home: autoDraw = False
+44.0016 	EXP 	trial1Cursor: autoDraw = False
+44.0016 	EXP 	trial1Num: autoDraw = False
+44.0016 	EXP 	trial1Text: autoDraw = False
+44.0016 	EXP 	trial1Num: text = '13'
+44.0016 	EXP 	trial1Cursor: pos = (1.5, 1.5)
+44.0016 	EXP 	trial1Target: autoDraw = True
+44.0016 	EXP 	trial1Home: autoDraw = True
+44.0016 	EXP 	trial1Cursor: autoDraw = True
+44.0016 	EXP 	trial1Num: autoDraw = True
+44.0016 	EXP 	trial1Text: autoDraw = True
+44.8888 	EXP 	New trial (rep=0, index=13): OrderedDict([('trialsType', 1), ('trialsNum', 1), ('trialNum', 14)])
+44.9014 	EXP 	trial1Target: autoDraw = False
+44.9014 	EXP 	trial1Home: autoDraw = False
+44.9014 	EXP 	trial1Cursor: autoDraw = False
+44.9014 	EXP 	trial1Num: autoDraw = False
+44.9014 	EXP 	trial1Text: autoDraw = False
+44.9014 	EXP 	trial1Num: text = '14'
+44.9014 	EXP 	trial1Cursor: pos = (1.5, 1.5)
+44.9014 	EXP 	trial1Target: autoDraw = True
+44.9014 	EXP 	trial1Home: autoDraw = True
+44.9014 	EXP 	trial1Cursor: autoDraw = True
+44.9014 	EXP 	trial1Num: autoDraw = True
+44.9014 	EXP 	trial1Text: autoDraw = True
+46.0389 	EXP 	New trial (rep=0, index=14): OrderedDict([('trialsType', 1), ('trialsNum', 1), ('trialNum', 15)])
+46.0513 	EXP 	trial1Target: autoDraw = False
+46.0513 	EXP 	trial1Home: autoDraw = False
+46.0513 	EXP 	trial1Cursor: autoDraw = False
+46.0513 	EXP 	trial1Num: autoDraw = False
+46.0513 	EXP 	trial1Text: autoDraw = False
+46.0513 	EXP 	trial1Num: text = '15'
+46.0513 	EXP 	trial1Cursor: pos = (1.5, 1.5)
+46.0513 	EXP 	trial1Target: autoDraw = True
+46.0513 	EXP 	trial1Home: autoDraw = True
+46.0513 	EXP 	trial1Cursor: autoDraw = True
+46.0513 	EXP 	trial1Num: autoDraw = True
+46.0513 	EXP 	trial1Text: autoDraw = True
+47.1718 	EXP 	New trial (rep=0, index=15): OrderedDict([('trialsType', 1), ('trialsNum', 1), ('trialNum', 16)])
+47.1844 	EXP 	trial1Target: autoDraw = False
+47.1844 	EXP 	trial1Home: autoDraw = False
+47.1844 	EXP 	trial1Cursor: autoDraw = False
+47.1844 	EXP 	trial1Num: autoDraw = False
+47.1844 	EXP 	trial1Text: autoDraw = False
+47.1844 	EXP 	trial1Num: text = '16'
+47.1844 	EXP 	trial1Cursor: pos = (1.5, 1.5)
+47.1844 	EXP 	trial1Target: autoDraw = True
+47.1844 	EXP 	trial1Home: autoDraw = True
+47.1844 	EXP 	trial1Cursor: autoDraw = True
+47.1844 	EXP 	trial1Num: autoDraw = True
+47.1844 	EXP 	trial1Text: autoDraw = True
+48.5395 	EXP 	New trial (rep=0, index=16): OrderedDict([('trialsType', 1), ('trialsNum', 1), ('trialNum', 17)])
+48.5532 	EXP 	trial1Target: autoDraw = False
+48.5532 	EXP 	trial1Home: autoDraw = False
+48.5532 	EXP 	trial1Cursor: autoDraw = False
+48.5532 	EXP 	trial1Num: autoDraw = False
+48.5532 	EXP 	trial1Text: autoDraw = False
+48.5532 	EXP 	trial1Num: text = '17'
+48.5532 	EXP 	trial1Cursor: pos = (1.5, 1.5)
+48.5532 	EXP 	trial1Target: autoDraw = True
+48.5532 	EXP 	trial1Home: autoDraw = True
+48.5532 	EXP 	trial1Cursor: autoDraw = True
+48.5532 	EXP 	trial1Num: autoDraw = True
+48.5532 	EXP 	trial1Text: autoDraw = True
+49.6868 	EXP 	New trial (rep=0, index=17): OrderedDict([('trialsType', 1), ('trialsNum', 1), ('trialNum', 18)])
+49.7001 	EXP 	trial1Target: autoDraw = False
+49.7001 	EXP 	trial1Home: autoDraw = False
+49.7001 	EXP 	trial1Cursor: autoDraw = False
+49.7001 	EXP 	trial1Num: autoDraw = False
+49.7001 	EXP 	trial1Text: autoDraw = False
+49.7001 	EXP 	trial1Num: text = '18'
+49.7001 	EXP 	trial1Cursor: pos = (1.5, 1.5)
+49.7001 	EXP 	trial1Target: autoDraw = True
+49.7001 	EXP 	trial1Home: autoDraw = True
+49.7001 	EXP 	trial1Cursor: autoDraw = True
+49.7001 	EXP 	trial1Num: autoDraw = True
+49.7001 	EXP 	trial1Text: autoDraw = True
+50.9213 	EXP 	New trial (rep=0, index=18): OrderedDict([('trialsType', 1), ('trialsNum', 1), ('trialNum', 19)])
+50.9341 	EXP 	trial1Target: autoDraw = False
+50.9341 	EXP 	trial1Home: autoDraw = False
+50.9341 	EXP 	trial1Cursor: autoDraw = False
+50.9341 	EXP 	trial1Num: autoDraw = False
+50.9341 	EXP 	trial1Text: autoDraw = False
+50.9341 	EXP 	trial1Num: text = '19'
+50.9341 	EXP 	trial1Cursor: pos = (1.5, 1.5)
+50.9341 	EXP 	trial1Target: autoDraw = True
+50.9341 	EXP 	trial1Home: autoDraw = True
+50.9341 	EXP 	trial1Cursor: autoDraw = True
+50.9341 	EXP 	trial1Num: autoDraw = True
+50.9341 	EXP 	trial1Text: autoDraw = True
+52.2536 	EXP 	New trial (rep=0, index=19): OrderedDict([('trialsType', 1), ('trialsNum', 1), ('trialNum', 20)])
+52.2667 	EXP 	trial1Target: autoDraw = False
+52.2667 	EXP 	trial1Home: autoDraw = False
+52.2667 	EXP 	trial1Cursor: autoDraw = False
+52.2667 	EXP 	trial1Num: autoDraw = False
+52.2667 	EXP 	trial1Text: autoDraw = False
+52.2667 	EXP 	trial1Num: text = '20'
+52.2667 	EXP 	trial1Cursor: pos = (1.5, 1.5)
+52.2667 	EXP 	trial1Target: autoDraw = True
+52.2667 	EXP 	trial1Home: autoDraw = True
+52.2667 	EXP 	trial1Cursor: autoDraw = True
+52.2667 	EXP 	trial1Num: autoDraw = True
+52.2667 	EXP 	trial1Text: autoDraw = True
+53.4472 	EXP 	trial1Target: autoDraw = False
+53.4472 	EXP 	trial1Home: autoDraw = False
+53.4472 	EXP 	trial1Cursor: autoDraw = False
+53.4472 	EXP 	trial1Num: autoDraw = False
+53.4472 	EXP 	trial1Text: autoDraw = False
+53.4472 	EXP 	instr2: autoDraw = True
+60.4998 	DATA 	Keypress: space
+60.5281 	EXP 	instr2: autoDraw = False
+60.5281 	EXP 	fix2: autoDraw = True
+61.5343 	EXP 	Imported mReversalCond2.xlsx as conditions, 90 conditions, 3 params
+61.5350 	EXP 	Created sequence: sequential, trialTypes=90, nReps=1, seed=None
+61.5356 	EXP 	New trial (rep=0, index=0): OrderedDict([('trialsType', -1), ('trialsNum', 2), ('trialNum', 21)])
+61.5477 	EXP 	fix2: autoDraw = False
+61.5477 	EXP 	fix2: autoDraw = False
+61.5477 	EXP 	trial2Num: text = '1'
+61.5477 	EXP 	trial2Cursor: pos = (1.5, 1.5)
+61.5477 	EXP 	trial2Target: autoDraw = True
+61.5477 	EXP 	trial2Home: autoDraw = True
+61.5477 	EXP 	trial2Cursor: autoDraw = True
+61.5477 	EXP 	trial2Num: autoDraw = True
+61.5477 	EXP 	trial2Text: autoDraw = True
+64.8726 	EXP 	New trial (rep=0, index=1): OrderedDict([('trialsType', -1), ('trialsNum', 2), ('trialNum', 22)])
+64.8860 	EXP 	trial2Target: autoDraw = False
+64.8860 	EXP 	trial2Home: autoDraw = False
+64.8860 	EXP 	trial2Cursor: autoDraw = False
+64.8860 	EXP 	trial2Num: autoDraw = False
+64.8860 	EXP 	trial2Text: autoDraw = False
+64.8860 	EXP 	trial2Num: text = '2'
+64.8860 	EXP 	trial2Cursor: pos = (1.5, 1.5)
+64.8860 	EXP 	trial2Target: autoDraw = True
+64.8860 	EXP 	trial2Home: autoDraw = True
+64.8860 	EXP 	trial2Cursor: autoDraw = True
+64.8860 	EXP 	trial2Num: autoDraw = True
+64.8860 	EXP 	trial2Text: autoDraw = True
+68.1359 	EXP 	New trial (rep=0, index=2): OrderedDict([('trialsType', -1), ('trialsNum', 2), ('trialNum', 23)])
+68.1500 	EXP 	trial2Target: autoDraw = False
+68.1500 	EXP 	trial2Home: autoDraw = False
+68.1500 	EXP 	trial2Cursor: autoDraw = False
+68.1500 	EXP 	trial2Num: autoDraw = False
+68.1500 	EXP 	trial2Text: autoDraw = False
+68.1500 	EXP 	trial2Num: text = '3'
+68.1500 	EXP 	trial2Cursor: pos = (1.5, 1.5)
+68.1500 	EXP 	trial2Target: autoDraw = True
+68.1500 	EXP 	trial2Home: autoDraw = True
+68.1500 	EXP 	trial2Cursor: autoDraw = True
+68.1500 	EXP 	trial2Num: autoDraw = True
+68.1500 	EXP 	trial2Text: autoDraw = True
+69.7831 	EXP 	New trial (rep=0, index=3): OrderedDict([('trialsType', -1), ('trialsNum', 2), ('trialNum', 24)])
+69.7958 	EXP 	trial2Target: autoDraw = False
+69.7958 	EXP 	trial2Home: autoDraw = False
+69.7958 	EXP 	trial2Cursor: autoDraw = False
+69.7958 	EXP 	trial2Num: autoDraw = False
+69.7958 	EXP 	trial2Text: autoDraw = False
+69.7958 	EXP 	trial2Num: text = '4'
+69.7958 	EXP 	trial2Cursor: pos = (1.5, 1.5)
+69.7958 	EXP 	trial2Target: autoDraw = True
+69.7958 	EXP 	trial2Home: autoDraw = True
+69.7958 	EXP 	trial2Cursor: autoDraw = True
+69.7958 	EXP 	trial2Num: autoDraw = True
+69.7958 	EXP 	trial2Text: autoDraw = True
+71.4509 	EXP 	New trial (rep=0, index=4): OrderedDict([('trialsType', -1), ('trialsNum', 2), ('trialNum', 25)])
+71.4643 	EXP 	trial2Target: autoDraw = False
+71.4643 	EXP 	trial2Home: autoDraw = False
+71.4643 	EXP 	trial2Cursor: autoDraw = False
+71.4643 	EXP 	trial2Num: autoDraw = False
+71.4643 	EXP 	trial2Text: autoDraw = False
+71.4643 	EXP 	trial2Num: text = '5'
+71.4643 	EXP 	trial2Cursor: pos = (1.5, 1.5)
+71.4643 	EXP 	trial2Target: autoDraw = True
+71.4643 	EXP 	trial2Home: autoDraw = True
+71.4643 	EXP 	trial2Cursor: autoDraw = True
+71.4643 	EXP 	trial2Num: autoDraw = True
+71.4643 	EXP 	trial2Text: autoDraw = True
+73.1995 	EXP 	New trial (rep=0, index=5): OrderedDict([('trialsType', -1), ('trialsNum', 2), ('trialNum', 26)])
+73.2130 	EXP 	trial2Target: autoDraw = False
+73.2130 	EXP 	trial2Home: autoDraw = False
+73.2130 	EXP 	trial2Cursor: autoDraw = False
+73.2130 	EXP 	trial2Num: autoDraw = False
+73.2130 	EXP 	trial2Text: autoDraw = False
+73.2130 	EXP 	trial2Num: text = '6'
+73.2130 	EXP 	trial2Cursor: pos = (1.5, 1.5)
+73.2130 	EXP 	trial2Target: autoDraw = True
+73.2130 	EXP 	trial2Home: autoDraw = True
+73.2130 	EXP 	trial2Cursor: autoDraw = True
+73.2130 	EXP 	trial2Num: autoDraw = True
+73.2130 	EXP 	trial2Text: autoDraw = True
+75.0490 	EXP 	New trial (rep=0, index=6): OrderedDict([('trialsType', -1), ('trialsNum', 2), ('trialNum', 27)])
+75.0620 	EXP 	trial2Target: autoDraw = False
+75.0620 	EXP 	trial2Home: autoDraw = False
+75.0620 	EXP 	trial2Cursor: autoDraw = False
+75.0620 	EXP 	trial2Num: autoDraw = False
+75.0620 	EXP 	trial2Text: autoDraw = False
+75.0620 	EXP 	trial2Num: text = '7'
+75.0620 	EXP 	trial2Cursor: pos = (1.5, 1.5)
+75.0620 	EXP 	trial2Target: autoDraw = True
+75.0620 	EXP 	trial2Home: autoDraw = True
+75.0620 	EXP 	trial2Cursor: autoDraw = True
+75.0620 	EXP 	trial2Num: autoDraw = True
+75.0620 	EXP 	trial2Text: autoDraw = True
+76.9183 	EXP 	New trial (rep=0, index=7): OrderedDict([('trialsType', -1), ('trialsNum', 2), ('trialNum', 28)])
+76.9334 	EXP 	trial2Target: autoDraw = False
+76.9334 	EXP 	trial2Home: autoDraw = False
+76.9334 	EXP 	trial2Cursor: autoDraw = False
+76.9334 	EXP 	trial2Num: autoDraw = False
+76.9334 	EXP 	trial2Text: autoDraw = False
+76.9334 	EXP 	trial2Num: text = '8'
+76.9334 	EXP 	trial2Cursor: pos = (1.5, 1.5)
+76.9334 	EXP 	trial2Target: autoDraw = True
+76.9334 	EXP 	trial2Home: autoDraw = True
+76.9334 	EXP 	trial2Cursor: autoDraw = True
+76.9334 	EXP 	trial2Num: autoDraw = True
+76.9334 	EXP 	trial2Text: autoDraw = True
+78.7644 	EXP 	New trial (rep=0, index=8): OrderedDict([('trialsType', -1), ('trialsNum', 2), ('trialNum', 29)])
+78.7776 	EXP 	trial2Target: autoDraw = False
+78.7776 	EXP 	trial2Home: autoDraw = False
+78.7776 	EXP 	trial2Cursor: autoDraw = False
+78.7776 	EXP 	trial2Num: autoDraw = False
+78.7776 	EXP 	trial2Text: autoDraw = False
+78.7776 	EXP 	trial2Num: text = '9'
+78.7776 	EXP 	trial2Cursor: pos = (1.5, 1.5)
+78.7776 	EXP 	trial2Target: autoDraw = True
+78.7776 	EXP 	trial2Home: autoDraw = True
+78.7776 	EXP 	trial2Cursor: autoDraw = True
+78.7776 	EXP 	trial2Num: autoDraw = True
+78.7776 	EXP 	trial2Text: autoDraw = True
+80.8825 	EXP 	New trial (rep=0, index=9): OrderedDict([('trialsType', -1), ('trialsNum', 2), ('trialNum', 30)])
+80.8964 	EXP 	trial2Target: autoDraw = False
+80.8964 	EXP 	trial2Home: autoDraw = False
+80.8964 	EXP 	trial2Cursor: autoDraw = False
+80.8964 	EXP 	trial2Num: autoDraw = False
+80.8964 	EXP 	trial2Text: autoDraw = False
+80.8964 	EXP 	trial2Num: text = '10'
+80.8964 	EXP 	trial2Cursor: pos = (1.5, 1.5)
+80.8964 	EXP 	trial2Target: autoDraw = True
+80.8964 	EXP 	trial2Home: autoDraw = True
+80.8964 	EXP 	trial2Cursor: autoDraw = True
+80.8964 	EXP 	trial2Num: autoDraw = True
+80.8964 	EXP 	trial2Text: autoDraw = True
+82.4468 	EXP 	New trial (rep=0, index=10): OrderedDict([('trialsType', -1), ('trialsNum', 2), ('trialNum', 31)])
+82.4595 	EXP 	trial2Target: autoDraw = False
+82.4595 	EXP 	trial2Home: autoDraw = False
+82.4595 	EXP 	trial2Cursor: autoDraw = False
+82.4595 	EXP 	trial2Num: autoDraw = False
+82.4595 	EXP 	trial2Text: autoDraw = False
+82.4595 	EXP 	trial2Num: text = '11'
+82.4595 	EXP 	trial2Cursor: pos = (1.5, 1.5)
+82.4595 	EXP 	trial2Target: autoDraw = True
+82.4595 	EXP 	trial2Home: autoDraw = True
+82.4595 	EXP 	trial2Cursor: autoDraw = True
+82.4595 	EXP 	trial2Num: autoDraw = True
+82.4595 	EXP 	trial2Text: autoDraw = True
+83.9971 	EXP 	New trial (rep=0, index=11): OrderedDict([('trialsType', -1), ('trialsNum', 2), ('trialNum', 32)])
+84.0102 	EXP 	trial2Target: autoDraw = False
+84.0102 	EXP 	trial2Home: autoDraw = False
+84.0102 	EXP 	trial2Cursor: autoDraw = False
+84.0102 	EXP 	trial2Num: autoDraw = False
+84.0102 	EXP 	trial2Text: autoDraw = False
+84.0102 	EXP 	trial2Num: text = '12'
+84.0102 	EXP 	trial2Cursor: pos = (1.5, 1.5)
+84.0102 	EXP 	trial2Target: autoDraw = True
+84.0102 	EXP 	trial2Home: autoDraw = True
+84.0102 	EXP 	trial2Cursor: autoDraw = True
+84.0102 	EXP 	trial2Num: autoDraw = True
+84.0102 	EXP 	trial2Text: autoDraw = True
+84.2894 	DATA 	Keypress: escape
+84.7751 	EXP 	window1: mouseVisible = True
